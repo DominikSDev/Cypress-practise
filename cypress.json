@@ -1,0 +1,30 @@
+{
+  "baseUrl": "http://automationpractice.com",
+  "includeShadowDom": true,
+  "chromeWebSecurity": true,
+  "viewportHigh": 1080,
+  "viewportWidth": 1920,
+  "video": false,
+  "theme": "dark",
+  "projectId": "ahe35o",
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ],
+  "cypress-plugin-snapshots": {
+    "autoCleanUp": false,            
+    "autopassNewSnapshots": true,  
+    "diffLines": 3,                 
+    "excludeFields": [],          
+    "ignoreExtraArrayItems": false,  
+    "ignoreExtraFields": false,      
+    "normalizeJson": true,           
+    "prettier": true,             
+    "imageConfig": {
+      "createDiffImage": true,     
+      "resizeDevicePixelRatio": true,
+      "threshold": 0.01,             
+      "thresholdType": "percent"     
+    }
+  }
+}
